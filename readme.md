@@ -30,5 +30,5 @@ https://www.openstreetmap.org/?mlat=49.438277&mlon=1.100996#map=16/49.438277/1.1
 # What about i18n?
 
 Comments/variables are in English because it may be read by
-everybode but as it's useful only for French addresses (at least for
+everybody but as it's useful only for French addresses (at least for
 now) the returned message are in French.
