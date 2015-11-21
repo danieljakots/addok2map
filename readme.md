@@ -18,6 +18,7 @@ in your browser.
 ## Usage
 
 `./addok2map.py avenue jeanne d\'arc 76000`
+
 Rue Jeanne d'Arc 76000 Rouen (Pertinence : 70%)
 https://www.openstreetmap.org/?mlat=49.443756&mlon=1.091569#map=16/49.443756/1.091569/
 Place Saint-Marc 76000 Rouen (Pertinence : 30%)
