@@ -17,6 +17,8 @@ in your browser.
 
 ## Usage
 
+You'll need python3.4 and the requests module.
+
 `./addok2map.py avenue jeanne d\'arc 76000`
 
 Rue Jeanne d'Arc 76000 Rouen (Pertinence : 70%)
