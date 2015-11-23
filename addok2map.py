@@ -31,10 +31,10 @@ def print_url(latitude, longitude):
 if len(sys.argv) == 1:
     print("Je n'ai pas d'adresse à chercher :(")
     print("Par exemple ./addok2map.py avenue de la republique")
-    sys.exit()
+    sys.exit(1)
 else:
     address = str(sys.argv[1:])
-    addok_url = 'http://api-adresse.data.gouv.fr/search/?q='
+    addok_url = 'https://api-adresse.data.gouv.fr/search/?q='
     r = requests.get(addok_url + address)
 
 
@@ -48,4 +48,4 @@ if r.status_code == 200:
         print_url(latitude, longitude)
 
 else:
-    print("Addok indisponible. Ressayez un peu plus tard ;)")
+    raise Exception("Addok indisponible. Ressayez un peu plus tard ;)")
