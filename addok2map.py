@@ -34,7 +34,7 @@ if len(sys.argv) == 1:
     sys.exit()
 else:
     address = str(sys.argv[1:])
-    addok_url = 'http://api-adresse.data.gouv.fr/search/?q='
+    addok_url = 'https://api-adresse.data.gouv.fr/search/?q='
     r = requests.get(addok_url + address)
 
 
