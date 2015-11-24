@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
 #            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
 #                   Version 2, December 2004
@@ -14,6 +15,11 @@
 
 # 0. You just DO WHAT THE FUCK YOU WANT TO.
 #
+
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+from __future__ import unicode_literals
 
 import requests
 import json
