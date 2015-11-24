@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.4
+#!/usr/bin/env python3
 
 #            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
 #                   Version 2, December 2004
