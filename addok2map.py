@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.4
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 #            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
